@@ -1,0 +1,12 @@
+happy(Alice,54):-
+	neighbour(Alice,Bob).
+happy(Alice,54):-
+	neighbour(Bob,Alice).
+happy(Alice,-79):-
+	neighbour(Alice,Carol).
+happy(Alice,-79):-
+	neighbour(Carol,Alice).
+happy(Alice,-2):-
+	neighbour(Alice,David).
+happy(Alice,-2):-
+	neighbour(David,Alice).

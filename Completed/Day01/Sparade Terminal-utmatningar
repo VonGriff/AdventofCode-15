@@ -1,0 +1,1220 @@
+Last login: Fri Nov 27 16:24:11 on ttys001
+Johans-MBP:~ VonGriff$ cd Kurser/DD1361/
+Johans-MBP:DD1361 VonGriff$ ls
+Git		L1.pl		Syntax
+Haskell		Prolog		brna.pdf
+Johans-MBP:DD1361 VonGriff$ mkdir Inet
+Johans-MBP:DD1361 VonGriff$ cd
+Johans-MBP:~ VonGriff$ cd Downloads/
+Johans-MBP:Downloads VonGriff$ mv inet ../Kurser/DD1361/Inet/
+Johans-MBP:Downloads VonGriff$ cd ../Kurser/DD1361/Inet/
+Johans-MBP:Inet VonGriff$ ls
+inet
+Johans-MBP:Inet VonGriff$ ls inet/
+ATMClient.java		ATMServer.java		ATMServerThread.java
+Johans-MBP:Inet VonGriff$ 
+
+
+
+  [Återskapat 1 dec. 2015 16:10:00]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Last login: Sun Nov 29 22:00:22 on ttys000
+Restored session: Tis 1 Dec 2015 16:09:52 CET
+n133-p87:Inet VonGriff$ clear
+
+n133-p87:Inet VonGriff$ pwd
+/Users/VonGriff/Kurser/DD1361/Inet
+n133-p87:Inet VonGriff$ cd
+n133-p87:~ VonGriff$ cd Kurser/IS1500/Git/DTek/
+.git/       .gitignore  Lab 1/      Lab2/       Lab3/       Lab5/
+n133-p87:~ VonGriff$ cd Kurser/IS1500/Projekt/Git/Dtek-projekt/
+.git/      README.md  
+n133-p87:~ VonGriff$ cd Kurser/IS1500/Projekt/Git/Dtek-projekt/
+n133-p87:Dtek-projekt VonGriff$ ls
+README.md
+n133-p87:Dtek-projekt VonGriff$ git pull
+Already up-to-date.
+n133-p87:Dtek-projekt VonGriff$ cd ..
+n133-p87:Git VonGriff$ cd ..
+n133-p87:Projekt VonGriff$ cd ..
+n133-p87:IS1500 VonGriff$ cd Git/DTek/Lab3/
+n133-p87:Lab3 VonGriff$ ls
+time4int	time4io		time4timer
+n133-p87:Lab3 VonGriff$ cd time4int/
+n133-p87:time4int VonGriff$ ls
+Anteckningar	mipslab.h	mipslabmain.c.o	stubs.c
+COPYING		mipslabdata.c	mipslabwork.c	stubs.c.o
+Makefile	mipslabdata.c.o	mipslabwork.c.o	time4io.c
+labwork.S	mipslabfunc.c	mipslabwork.c~	time4io.c.o
+labwork.S.o	mipslabfunc.c.o	outfile.elf	vectors.S
+labwork.S~	mipslabmain.c	outfile.hex	vectors.S.o
+n133-p87:time4int VonGriff$ cp * ~/Kurser/IS1500/Projekt/Git/Dtek-projekt/
+n133-p87:time4int VonGriff$ cd ~/Kurser/IS1500/Projekt/Git/Dtek-projekt/
+n133-p87:Dtek-projekt VonGriff$ ls
+Anteckningar	mipslab.h	mipslabwork.c	time4io.c
+COPYING		mipslabdata.c	mipslabwork.c.o	time4io.c.o
+Makefile	mipslabdata.c.o	mipslabwork.c~	vectors.S
+README.md	mipslabfunc.c	outfile.elf	vectors.S.o
+labwork.S	mipslabfunc.c.o	outfile.hex
+labwork.S.o	mipslabmain.c	stubs.c
+labwork.S~	mipslabmain.c.o	stubs.c.o
+n133-p87:Dtek-projekt VonGriff$ cd ..
+n133-p87:Git VonGriff$ cd ..
+n133-p87:Projekt VonGriff$ cd ..
+n133-p87:IS1500 VonGriff$ cd Git/DTek/
+n133-p87:DTek VonGriff$ git pull
+
+[1]+  Stopped                 git pull
+n133-p87:DTek VonGriff$ git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 1 different commit each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   Lab5/processor.circ
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   Lab5/processor kopia.circ
+	modified:   Lab5/processor.circ
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	Lab 1/time4mips2/
+	Lab5/processor-surprise.circ
+
+n133-p87:DTek VonGriff$ netcat tcp://188.166.63.14:1338
+-bash: netcat: command not found
+n133-p87:DTek VonGriff$ cd ..
+n133-p87:Git VonGriff$ cd ..
+n133-p87:IS1500 VonGriff$ ls
+Git
+Lab2
+Lab3
+Lab4
+Lab5
+Mars4_5.jar
+Projekt
+Sciencedirect_articles_28Aug2015_08-59-30
+Silverlight.dmg
+USB-adress.txt
+expo.c
+lab5-processor-design.pdf
+lecture9-spp2.pdf
+maskinkodgabrielochmårten
+maskinkodgabrielochmårten2
+mips-ref-sheet.pdf
+skräp
+n133-p87:IS1500 VonGriff$ ls skräp/
+time4io.c.P	time4io.c.o
+n133-p87:IS1500 VonGriff$ cd
+n133-p87:~ VonGriff$ cd Documents/
+n133-p87:Documents VonGriff$ mkdir AdventofCode
+n133-p87:Documents VonGriff$ cd AdventofCode/
+n133-p87:AdventofCode VonGriff$ mkdir Day01
+n133-p87:AdventofCode VonGriff$ cd Day01/
+n133-p87:Day01 VonGriff$ javac NotQuiteLisp.java 
+NotQuiteLisp.java:5: class, interface, or enum expected
+public static void main(String args[]) {
+              ^
+NotQuiteLisp.java:7: class, interface, or enum expected
+}
+^
+NotQuiteLisp.java:13: class, interface, or enum expected
+	char input[] = new char[1024];
+	^
+NotQuiteLisp.java:14: class, interface, or enum expected
+	int read = 0;
+	^
+NotQuiteLisp.java:15: class, interface, or enum expected
+	while ((read = stdin.read(input)) != -1) {
+	^
+NotQuiteLisp.java:18: class, interface, or enum expected
+	}
+	^
+NotQuiteLisp.java:20: class, interface, or enum expected
+}
+^
+7 errors
+n133-p87:Day01 VonGriff$ javac NotQuiteLisp.java 
+NotQuiteLisp.java:19: cannot find symbol
+symbol  : variable buf
+location: class NotQuiteLisp
+			buf.append(input, 0, read);
+			^
+NotQuiteLisp.java:21: cannot find symbol
+symbol  : variable buf
+location: class NotQuiteLisp
+		return buf.toString();
+		       ^
+2 errors
+n133-p87:Day01 VonGriff$ javac NotQuiteLisp.java 
+NotQuiteLisp.java:17: unreported exception java.io.IOException; must be caught or declared to be thrown
+		while ((read = stdin.read(input)) != -1) {
+		                         ^
+1 error
+n133-p87:Day01 VonGriff$ clear
+
+n133-p87:Day01 VonGriff$ javac NotQuiteLisp.java 
+NotQuiteLisp.java:17: unreported exception java.io.IOException; must be caught or declared to be thrown
+		while ((read = stdin.read(input)) != -1) {
+		                         ^
+1 error
+n133-p87:Day01 VonGriff$ javac NotQuiteLisp.java 
+NotQuiteLisp.java:8: unreported exception java.io.IOException; must be caught or declared to be thrown
+		System.out.println(readInput(System.in));
+		                            ^
+1 error
+n133-p87:Day01 VonGriff$ javac NotQuiteLisp.java 
+n133-p87:Day01 VonGriff$ java NotQuiteLisp.java
+Exception in thread "main" java.lang.NoClassDefFoundError: NotQuiteLisp/java
+Caused by: java.lang.ClassNotFoundException: NotQuiteLisp.java
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+n133-p87:Day01 VonGriff$ java NotQuiteLisp.java input.txt 
+Exception in thread "main" java.lang.NoClassDefFoundError: NotQuiteLisp/java
+Caused by: java.lang.ClassNotFoundException: NotQuiteLisp.java
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+n133-p87:Day01 VonGriff$ javac NotQuiteLisp.java
+n133-p87:Day01 VonGriff$ java NotQuiteLisp.java
+Exception in thread "main" java.lang.NoClassDefFoundError: NotQuiteLisp/java
+Caused by: java.lang.ClassNotFoundException: NotQuiteLisp.java
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+n133-p87:Day01 VonGriff$ java NotQuiteLisp.java
+Exception in thread "main" java.lang.NoClassDefFoundError: NotQuiteLisp/java
+Caused by: java.lang.ClassNotFoundException: NotQuiteLisp.java
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+n133-p87:Day01 VonGriff$ javac *.java
+n133-p87:Day01 VonGriff$ java Main.java
+Exception in thread "main" java.lang.NoClassDefFoundError: Main/java
+Caused by: java.lang.ClassNotFoundException: Main.java
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+n133-p87:Day01 VonGriff$ ls
+Main.class		NotQuiteLisp.class	input.txt
+Main.java		NotQuiteLisp.java
+n133-p87:Day01 VonGriff$ javac Main.java
+n133-p87:Day01 VonGriff$ java Main.java
+Exception in thread "main" java.lang.NoClassDefFoundError: Main/java
+Caused by: java.lang.ClassNotFoundException: Main.java
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+n133-p87:Day01 VonGriff$ javac NotQuiteLisp.java
+n133-p87:Day01 VonGriff$ java NotQuiteLisp.java
+Exception in thread "main" java.lang.NoClassDefFoundError: NotQuiteLisp/java
+Caused by: java.lang.ClassNotFoundException: NotQuiteLisp.java
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+n133-p87:Day01 VonGriff$ javac *.java
+n133-p87:Day01 VonGriff$ java Main.java
+Exception in thread "main" java.lang.NoClassDefFoundError: Main/java
+Caused by: java.lang.ClassNotFoundException: Main.java
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+n133-p87:Day01 VonGriff$ java Main.class
+Exception in thread "main" java.lang.NoClassDefFoundError: Main/class
+Caused by: java.lang.ClassNotFoundException: Main.class
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+n133-p87:Day01 VonGriff$ java Main
+Hello World!
+n133-p87:Day01 VonGriff$ java NotQuiteLisp
+Hello World!
+n133-p87:Day01 VonGriff$ javac NotQuiteLisp.java 
+n133-p87:Day01 VonGriff$ java NotQuiteLisp input.txt
+Hello World!
+
+
+^Z
+[2]+  Stopped                 java NotQuiteLisp input.txt
+n133-p87:Day01 VonGriff$ java NotQuiteLisp(input.txt)
+-bash: syntax error near unexpected token `('
+n133-p87:Day01 VonGriff$ java NotQuiteLisp input.txt
+Hello World!
+^Z
+[3]+  Stopped                 java NotQuiteLisp input.txt
+n133-p87:Day01 VonGriff$ javac NotQuiteLisp.java 
+n133-p87:Day01 VonGriff$ java NotQuiteLisp input.txt
+Hello World!
+input.txt
+0
+input.txt
+0
+^Z
+[4]+  Stopped                 java NotQuiteLisp input.txt
+n133-p87:Day01 VonGriff$ javac NotQuiteLisp.java 
+NotQuiteLisp.java:9: cannot find symbol
+symbol  : class FileInputStream
+location: class NotQuiteLisp
+		FileInputStream input = new FileInputStream(input.txt);
+		^
+NotQuiteLisp.java:9: cannot find symbol
+symbol  : class FileInputStream
+location: class NotQuiteLisp
+		FileInputStream input = new FileInputStream(input.txt);
+		                            ^
+NotQuiteLisp.java:10: readInput(java.io.InputStream) in NotQuiteLisp cannot be applied to ()
+		System.out.println(readInput());
+		                   ^
+3 errors
+n133-p87:Day01 VonGriff$ javac NotQuiteLisp.java 
+NotQuiteLisp.java:10: cannot find symbol
+symbol  : variable txt
+location: class java.io.FileInputStream
+		FileInputStream input = new FileInputStream(input.txt);
+		                                                 ^
+NotQuiteLisp.java:11: readInput(java.io.InputStream) in NotQuiteLisp cannot be applied to ()
+		System.out.println(readInput());
+		                   ^
+2 errors
+n133-p87:Day01 VonGriff$ javac NotQuiteLisp.java 
+NotQuiteLisp.java:10: cannot find symbol
+symbol  : variable txt
+location: class java.io.FileInputStream
+		FileInputStream input = new FileInputStream(input.txt);
+		                                                 ^
+1 error
+n133-p87:Day01 VonGriff$ javac NotQuiteLisp.java 
+NotQuiteLisp.java:12: illegal start of expression
+		System.out.println(readInput(interface NotQuiteLisp extends Parent {
+		                             ^
+NotQuiteLisp.java:12: ')' expected
+		System.out.println(readInput(interface NotQuiteLisp extends Parent {
+		                                      ^
+NotQuiteLisp.java:12: ';' expected
+		System.out.println(readInput(interface NotQuiteLisp extends Parent {
+		                                                   ^
+NotQuiteLisp.java:12: not a statement
+		System.out.println(readInput(interface NotQuiteLisp extends Parent {
+		                                                            ^
+NotQuiteLisp.java:12: ';' expected
+		System.out.println(readInput(interface NotQuiteLisp extends Parent {
+		                                                                  ^
+NotQuiteLisp.java:14: illegal start of expression
+		}));
+		 ^
+NotQuiteLisp.java:14: illegal start of expression
+		}));
+		  ^
+7 errors
+n133-p87:Day01 VonGriff$ javac NotQuiteLisp.java 
+NotQuiteLisp.java:10: cannot find symbol
+symbol  : class File
+location: class NotQuiteLisp
+		File input = new File(input.txt);
+		^
+NotQuiteLisp.java:10: cannot find symbol
+symbol  : class File
+location: class NotQuiteLisp
+		File input = new File(input.txt);
+		                 ^
+2 errors
+n133-p87:Day01 VonGriff$ javac NotQuiteLisp.java 
+NotQuiteLisp.java:11: cannot find symbol
+symbol  : variable txt
+location: class java.io.File
+		File input = new File(input.txt);
+		                           ^
+1 error
+n133-p87:Day01 VonGriff$ javac NotQuiteLisp.java 
+NotQuiteLisp.java:11: illegal start of expression
+		File input = new File(input/.txt);
+		                            ^
+NotQuiteLisp.java:11: ';' expected
+		File input = new File(input/.txt);
+		                             ^
+NotQuiteLisp.java:11: illegal start of expression
+		File input = new File(input/.txt);
+		                                ^
+3 errors
+n133-p87:Day01 VonGriff$ javac NotQuiteLisp.java 
+NotQuiteLisp.java:18: input is already defined in readInput(java.io.InputStream)
+		char input[] = new char[2024];
+		     ^
+NotQuiteLisp.java:25: cannot find symbol
+symbol  : variable scanner
+location: class NotQuiteLisp
+			buf.append(scanner.nextLine());
+			           ^
+2 errors
+n133-p87:Day01 VonGriff$ javac NotQuiteLisp.java 
+NotQuiteLisp.java:18: input is already defined in readInput(java.io.InputStream)
+		char input[] = new char[2024];
+		     ^
+1 error
+n133-p87:Day01 VonGriff$ javac NotQuiteLisp.java 
+n133-p87:Day01 VonGriff$ java NotQuiteLisp
+Hello World!
+input.txt
+1
+
+
+input.txt
+2
+3
+4
+input.txt
+5
+
+^X^Z
+[5]+  Stopped                 java NotQuiteLisp
+n133-p87:Day01 VonGriff$ javac NotQuiteLisp.java 
+n133-p87:Day01 VonGriff$ java NotQuiteLisp
+Hello World!
+input.txt
+1
+
+^Z
+[6]+  Stopped                 java NotQuiteLisp
+n133-p87:Day01 VonGriff$ 
+n133-p87:Day01 VonGriff$ java NotQuiteLisp
+Hello World!
+"input.txt"
+1
+
+^Z
+[7]+  Stopped                 java NotQuiteLisp
+n133-p87:Day01 VonGriff$ javac Main.java 
+Main.java:25: reached end of file while parsing
+}
+ ^
+1 error
+n133-p87:Day01 VonGriff$ javac Main.java 
+Main.java:6: class NotQuiteLisp is public, should be declared in a file named NotQuiteLisp.java
+public class NotQuiteLisp {
+       ^
+1 error
+n133-p87:Day01 VonGriff$ javac Main.java 
+n133-p87:Day01 VonGriff$ java Main ((((()(()(((((((()))(((()((((()())(())()(((()((((((()((()(()(((()(()((())))()((()()())))))))))()((((((())((()))(((((()(((((((((()()))((()(())()((())((()(()))((()))()))()(((((()(((()()))()())((()((((())()())()((((())()(()(()(((()(())(()(())(((((((())()()(((())(()(()(()(())))(()((((())((()))(((()(()()(((((()()(()(((()(((((())()))()((()(()))()((()((((())((((())(()(((())()()(()()()()()(())((((())((())(()()))()((((())))((((()())()((((())((()())((())(())(((((()((((()(((()((((())(()(((()()))()))((((((()((())()())))(((()(()))(()()(()(((()(()))((()()()())((()()()(((())())()())())())((()))(()(()))(((((()(()(())((()(())(())()((((()())()))((((())(())((())())((((()(((())(())((()()((((()((((((()(())()()(()(()()((((()))(())()())()))(())))(())))())()()(())(()))()((()(()(())()()))(()())))))(()))(()()))(())(((((()(()(()()((())()())))))((())())((())(()(())((()))(())(((()((((((((()()()(()))()()(((()))()((()()(())(())())()(()(())))(((((()(())(())(()))))())()))(()))()(()(((((((()((((())))())())())())()((((((((((((((()()((((((()()()())())()())())())(())(())))())((()())((()(()))))))()))))))))))))))))())((())((())()()))))))(((()((()(()()))((())(()()))()()())))(())))))))(()(((())))())()())))()()(())()))()(()))())((()()))))(()))))()))(()()(())))))))()(((()))))()(()))(())())))))()))((()))((()))())(())))))))))((((())()))()))()))())(())()()(())))())))(()())()))((()()(())))(())((((((()(())((()(((()(()()(())))()))))))()))()(()((()))()(()))(()(((())((((())())(())(()))))))))())))))))())())))))())))))()()(((())()(()))))))))())))))(())()()()))()))()))(()(())()()())())))))))())()(()(()))))()()()))))())(()))))()()))))()())))))(((())()()))(()))))))))))()()))))()()()))))(()())())()()())()(()))))()(()))(())))))))(((((())(())())()()))()()))(())))))()(()))))(())(()()))()())()))()))()))()))))())()()))())())))(()))(()))))))())()(((())()))))))))()))()())))())))())))()))))))))))()()))(()()))))))(())()(()))))())(()))))(()))))(()())))))())())()()))))())()))))))))(()))))()))))))()(()())))))))()))())))())))())))())))))))())(()()))))))(()())())))()())()))))))))))))))())))()(())))()))())()()(())(()()))(())))())()())(()(()(()))))())))))))))))())(()))()))()))))(())()())()())))))))))))()()))))))))))))())())))))(()())))))))))))())(())))()))))))))())())(()))()))(())))()))()()(())()))))))()((((())()))())())))))()))()))))((()())()))))())))(())))))))))))))))))()))))()()())()))()()))))())()))((()())))())))(()))(()())))))))()))()))))(())))))))(())))))())()()(()))())()))()()))))())()()))))())()))())))))))(()))))()())()))))))))(()))())))(()))()))))(())()))())())(())())())))))))((((())))))()))()))()())()(())))()))()))()())(()())()()(()())()))))())())))))(()))()))))())(()()(())))))(())()()((())())))))(())(())))))))())))))))))()(())))))))()())())())()(()))))))))(()))))))))())()()))()(()))))))()))))))())))))))(())))()()(())()())))))(((())))()((())()))())))(()()))())(())())))()(((()())))))()(()()())))()()(()()(()()))())()(()()()))())()()))()())(()))))())))))())))(())()()))))(()))))(())(()))(())))))()()))()))))())()))()()(())())))((()))())()))))))()()))))((()(()))))()()))))))())))))())(()((()())))))))))))()())())))()))(()))))))(()))(())()())))(()))))))))())()()()()))))(()())))))))((())))()))(()))(())(())()())()))))))))(())))())))(()))()()))(()()))(()))())))()(())))())((()((()(())))((())))()))))((((())())()())))(())))()))))))())(()()((())))())()(()())))))(()())()))())))))))((())())))))))(()(()))())()()(()()(((()(((()())))))()))))))()(())(()()((()()(())()()))())()())()))()())())())))))))(((())))))))()()))))))(((())()))(()()))(()()))))(()(()()((((())()())((()()))))(()(())))))()((()()()())()()((()((()()))(()))(((()()()))(((())))()(((())()))))))((()(())())))(()())(((((()(()))(()((()))(()())()))))(()(()))()(()))(())(((())(()()))))()()))(((()))))(()()()()))())))((()()()(())()))()))))()()))()))))))((((((()()()))))())((()()(((()))))(()(())(()()())())())))()(((()()))(())((())))(()))(()()()())((())())())(()))))()))()((()(())()(()()(())(()))(())()))(())(()))))(())(())())(()()(()((()()((())))((()))()((())))(((()()()()((((()))(()()))()()()(((())((())())(()()(()()()))()((())(())()))())(((()()(())))()((()()())()())(()(())())(((())(())())((())(())()(((()()))(())))((())(()())())(())((()()()((((((())))((()(((((())()))()))(())(()()))()))(())()()))(())((()()())()()(()))())()((())))()((()()())((((()())((())())())((()((()))()))((())((()()(()((()()(((())(()()))))((()((())()(((())(()((())())((())(()((((((())())()(()())()(())(((())((((((()(())(()((()()()((()()(()()()())))()()(((((()()))()((((((()))()(()(()(()(((()())((()))())()((()))(())))()))()()))())()()))())((((())(()(()))(((((((())(((()(((((()(((()()((((())(((())())))(()()()(()(()))()))((((((()))((()(((()(())((()((((()((((((())(((((())))(((()(()))))(((()(((())()((())(()((()))(((()()(((())((((()(()(((((()))(((()(((((((()(()()()(()(()(()()())(())(((((()(())())()())(()(()(()))()(()()()())(()()(()((()))()((())())()(()))((())(()))()(()))()(((()(()(()((((((()()()()())()(((((()()(((()()()((()(((((()))((((((((()()()(((((()))))))(()()()(())(()))(()()))))(())()))(((((()(((((()()(()(()())(((()))((((()((()(()(()((()(()((())))()(((()((()))((()))(((((((((()((()((()(())))()((((()((()()))((())(((()(((((()()(()(()()((()(()()()(((((((())())()())))))((((()()(()))()))(()((())()(()(((((((((()()(((()(()())(()((()())((())())((((()(((()(((()((((()((()((((()(()((((((())((((((((((((()()(()()((((((((((((((()((()()))()((((((((((((())((((()(()())((()(()(()))()(((((()()(((()()))()())(())((()(((((()((())(((((()((()(((((()))()()((((())()((((())(((((((((()(())(()(())))())(()((())(((())(())(())())(()(()(())()()((()((())()(((()(((((()(())))()(((()((())))((()()()(((()(((()((()(()(())(()((()())(()(()(((()(((((((((())(()((((()()))(()((((()()()()(((()((((((((()(()()((((((()(()()(()((()((((((((((()()(((((((()())(())))(((()()))(((((()((()()())(()()((((())((()((((()))))(())((()(()()(((()(()(((()((((()(((((()))())())(()((())()))(((()())((())((())((((()((()((((((())(()((((()()))((((((())()(()))((()(((())((((((((((()()(((((()(((((()((()()()((((())))(()))()((()(())()()((()((((((((((()((())(())(((((()(()(()()))((((()((((()()((()(((()(((((((((()(()((()((()))((((((()(((())()()((()(((((((()())))()()(()((()((()()(((()(()()()()((((()((())((((()(((((((((()(((()()(((()(()(((()(((()((())()(()((()(()(()(()))()(((()))(()((((()((())((((())((((((())(()))(()((((())((()(()((((((((()()((((((()(()(()()()(())((()((()()(((()(((((((()()((()(((((((()))(((((()(((()(()()()(()(((()((()()((())(()(((((((((()(()((()((((((()()((())()))(((((()((())()())()(((((((((((()))((((()()()()())(()()(()(()()))()))(()))(()(((()()))())(()(()))()()((())(()())()())()(()))()))(()()(()((((((())((()(((((((((((()(())()((()(()((()((()(()((()((((((((((()()())((())()(())))((())()())()(((((()(()())((((()((()(())(()))(((())()((()))(((((())(()))()()(()))(((())((((()((((()(())))(((((((()))))())()())(())((())()(()()((()(()))()(()()(()()((()())((())((()()))((((()))()()))(()()(())()()(((((()(())((()((((()))()))(()())())(((()()(()()))(())))))(()))((())(((((()((((()))()((((()))()((())(((())))(((()())))((()(()()((
+-bash: syntax error near unexpected token `('
+n133-p87:Day01 VonGriff$ java Main ((((()(()(((((((()))(((()((((()())(())()(((()((((((()((()(()(((()(()((())))()((()()())))))))))()((((((())((()))(((((()(((((((((()()))((()(())()((())((()(()))((()))()))()(((((()(((()()))()())((()((((())()())()((((())()(()(()(((()(())(()(())(((((((())()()(((())(()(()(()(())))(()((((())((()))(((()(()()(((((()()(()(((()(((((())()))()((()(()))()((()((((())((((())(()(((())()()(()()()()()(())((((())((())(()()))()((((())))((((()())()((((())((()())((())(())(((((()((((()(((()((((())(()(((()()))()))((((((()((())()())))(((()(()))(()()(()(((()(()))((()()()())((()()()(((())())()())())())((()))(()(()))(((((()(()(())((()(())(())()((((()())()))((((())(())((())())((((()(((())(())((()()((((()((((((()(())()()(()(()()((((()))(())()())()))(())))(())))())()()(())(()))()((()(()(())()()))(()())))))(()))(()()))(())(((((()(()(()()((())()())))))((())())((())(()(())((()))(())(((()((((((((()()()(()))()()(((()))()((()()(())(())())()(()(())))(((((()(())(())(()))))())()))(()))()(()(((((((()((((())))())())())())()((((((((((((((()()((((((()()()())())()())())())(())(())))())((()())((()(()))))))()))))))))))))))))())((())((())()()))))))(((()((()(()()))((())(()()))()()())))(())))))))(()(((())))())()())))()()(())()))()(()))())((()()))))(()))))()))(()()(())))))))()(((()))))()(()))(())())))))()))((()))((()))())(())))))))))((((())()))()))()))())(())()()(())))())))(()())()))((()()(())))(())((((((()(())((()(((()(()()(())))()))))))()))()(()((()))()(()))(()(((())((((())())(())(()))))))))())))))))())())))))())))))()()(((())()(()))))))))())))))(())()()()))()))()))(()(())()()())())))))))())()(()(()))))()()()))))())(()))))()()))))()())))))(((())()()))(()))))))))))()()))))()()()))))(()())())()()())()(()))))()(()))(())))))))(((((())(())())()()))()()))(())))))()(()))))(())(()()))()())()))()))()))()))))())()()))())())))(()))(()))))))())()(((())()))))))))()))()())))())))())))()))))))))))()()))(()()))))))(())()(()))))())(()))))(()))))(()())))))())())()()))))())()))))))))(()))))()))))))()(()())))))))()))())))())))())))())))))))())(()()))))))(()())())))()())()))))))))))))))())))()(())))()))())()()(())(()()))(())))())()())(()(()(()))))())))))))))))())(()))()))()))))(())()())()())))))))))))()()))))))))))))())())))))(()())))))))))))())(())))()))))))))())())(()))()))(())))()))()()(())()))))))()((((())()))())())))))()))()))))((()())()))))())))(())))))))))))))))))()))))()()())()))()()))))())()))((()())))())))(()))(()())))))))()))()))))(())))))))(())))))())()()(()))())()))()()))))())()()))))())()))())))))))(()))))()())()))))))))(()))())))(()))()))))(())()))())())(())())())))))))((((())))))()))()))()())()(())))()))()))()())(()())()()(()())()))))())())))))(()))()))))())(()()(())))))(())()()((())())))))(())(())))))))())))))))))()(())))))))()()c Main.java 
+                              Main ((((()(()(((((((()))(((()((((()())(())()(((()((((((()((()(()(((()(()((())))()((()()())))))))))()((((((())((()))(((((()(((((((((()()))((()(())()((())((()(()))((()))()))()(((((()(((()()))()())((()((((())()())()((((())()(()(()(((()(())(()(())(((((((())()()(((())(()(()(()(())))(()((((())((()))(((()(()()(((((()()(()(((()(((((())()))()((()(()))()((()((((())((((())(()(((())()()(()()()()()(())((((())((())(()()))()((((())))((((()())()((((())((()())((())(())(((((()((((()(((()((((())(()(((()()))()))((((((()((())()())))(((()(()))(()()(()(((()(()))((()()()())((()()()(((())())()())())())((()))(()(()))(((((()(()(())((()(())(())()((((()())()))((((())(())((())())((((()(((())(())((()()((((()((((((()(())()()(()(()()((((()))(())()())()))(())))(())))())()()(())(()))()((()(()(())()()))(()())))))(()))(()()))(())(((((()(()(()()((())()())))))((())())((())(()(())((()))(())(((()((((((((()()()(()))()()(((()))()((()()(())(())())()(()(())))(((((()(())(())(()))))())()))(()))()(()(((((((()((((())))())())())())()((((((((((((((()()((((((()()()())())()())())())(())(())))())((()())((()(()))))))()))))))))))))))))())((())((())()()))))))(((()((()(()()))((())(()()))()()())))(())))))))(()(((())))())()())))()()(())()))()(()))())((()()))))(()))))()))(()()(())))))))()(((()))))()(()))(())())))))()))((()))((()))())(())))))))))((((())()))()))()))())(())()()(())))())))(()())()))((()()(())))(())((((((()(())((()(((()(()()(())))()))))))()))()(()((()))()(()))(()(((())((((())())(())(()))))))))())))))))())())))))())))))()()(((())()(()))))))))())))))(())()()()))()))()))(()(())()()())())))))))())()(()(()))))()()()))))())(()))))()()))))()())))))(((())()()))(()))))))))))()()))))()()()))))(()())())()()())()(()))))()(()))(())))))))(((((())(())())()()))()()))(())))))()(()))))(())(()()))()())()))()))()))()))))())()()))())())))(()))(()))))))())()(((())()))))))))()))()())))())))())))()))))))))))()()))(()()))))))(())()(()))))())(()))))(()))))(()())))))())())()()))))())()))))))))(()))))()))))))()(()())))))))()))())))())))())))())))))))())(()()))))))(()())())))()())()))))))))))))))())))()(())))()))())()()(())(()()))(())))())()())(()(()(()))))())))))))))))())(()))()))()))))(())()())()())))))))))))()()))))))))))))())())))))(()())))))))))))())(())))()))))))))())())(()))()))(())))()))()()(())()))))))()((((())()))())())))))()))()))))((()())()))))())))(())))))))))))))))))()))))()()())()))()()))))())()))((()())))())))(()))(()())))))))()))()))))(())))))))(())))))())()()(()))())()))()()))))())()()))))())()))())))))))(()))))()())()))))))))(()))())))(()))()))))(())()))())())(())())())))))))((((())))))()))()))()())()(())))()))()))()())(()())()()(()())()))))())())))))(()))()))))())(()()(())))))(())()()((())())))))(())(())))))))())))))))))()(())))))))()()c Main.java 
+                              Main ((((()(()(((((((()))(((()((((()())(())()(((()((((((()((()(()(((()(()((())))()((()()())))))))))()((((((())((()))(((((()(((((((((()()))((()(())()((())((()(()))((()))()))()(((((()(((()()))()())((()((((())()())()((((())()(()(()(((()(())(()(())(((((((())()()(((())(()(()(()(())))(()((((())((()))(((()(()()(((((()()(()(((()(((((())()))()((()(()))()((()((((())((((())(()(((())()()(()()()()()(())((((())((())(()()))()((((())))((((()())()((((())((()())((())(())(((((()((((()(((()((((())(()(((()()))()))((((((()((())()())))(((()(()))(()()(()(((()(()))((()()()())((()()()(((())())()())())())((()))(()(()))(((((()(()(())((()(())(())()((((()())()))((((())(())((())())((((()(((())(())((()()((((()((((((()(())()()(()(()()((((()))(())()())()))(())))(())))())()()(())(()))()((()(()(())()()))(()())))))(()))(()()))(())(((((()(()(()()((())()())))))((())())((())(()(())((()))(())(((()((((((((()()()(()))()()(((()))()((()()(())(())())()(()(())))(((((()(())(())(()))))())()))(()))()(()(((((((()((((())))())())())())()((((((((((((((()()((((((()()()())())()())())())(())(())))())((()())((()(()))))))()))))))))))))))))())((())((())()()))))))(((()((()(()()))((())(()()))()()())))(())))))))(()(((())))())()())))()()(())()))()(()))())((()()))))(()))))()))(()()(())))))))()(((()))))()(()))(())())))))()))((()))((()))())(())))))))))((((())()))()))()))())(())()()(())))())))(()())()))((()()(())))(())((((((()(())((()(((()(()()(())))()))))))()))()(()((()))()(()))(()(((())((((())())(())(()))))))))())))))))())())))))())))))()()(((())()(()))))))))())))))(())()()()))()))()))(()(())()()())())))))))())()(()(()))))()()()))))())(()))))()()))))()())))))(((())()()))(()))))))))))()()))))()()()))))(()())())()()())()(()))))()(()))(())))))))(((((())(())())()()))()()))(())))))()(()))))(())(()()))()())()))()))()))()))))())()()))())())))(()))(()))))))())()(((())()))))))))()))()())))())))())))()))))))))))()()))(()()))))))(())()(()))))())(()))))(()))))(()())))))())())()()))))())()))))))))(()))))()))))))()(()())))))))()))())))())))())))())))))))())(()()))))))(()())())))()())()))))))))))))))())))()(())))()))())()()(())(()()))(())))())()())(()(()(()))))())))))))))))())(()))()))()))))(())()())()())))))))))))()()))))))))))))())())))))(()())))))))))))())(())))()))))))))())())(()))()))(())))()))()()(())()))))))()((((())()))())())))))()))()))))((()())()))))())))(())))))))))))))))))()))))()()())()))()()))))())()))((()())))())))(()))(()())))))))()))()))))(())))))))(())))))())()()(()))())()))()()))))())()()))))())()))())))))))(()))))()())()))))))))(()))())))(()))()))))(())()))())())(())())())))))))((((())))))()))()))()())()(())))()))()))()())(()())()()(()())()))))())())))))(()))()))))())(()()(())))))(())()()((())())))))(())(())))))))())))))))))()(())))))))()()c Main.java 
+                              Main ((((()(()(((((((()))(((()((((()())(())()(((()((((((()((()(()(((()(()((())))()((()()())))))))))()((((((())((()))(((((()(((((((((()()))((()(())()((())((()(()))((()))()))()(((((()(((()()))()())((()((((())()())()((((())()(()(()(((()(())(()(())(((((((())()()(((())(()(()(()(())))(()((((())((()))(((()(()()(((((()()(()(((()(((((())()))()((()(()))()((()((((())((((())(()(((())()()(()()()()()(())((((())((())(()()))()((((())))((((()())()((((())((()())((())(())(((((()((((()(((()((((())(()(((()()))()))((((((()((())()())))(((()(()))(()()(()(((()(()))((()()()())((()()()(((())())()())())())((()))(()(()))(((((()(()(())((()(())(())()((((()())()))((((())(())((())())((((()(((())(())((()()((((()((((((()(())()()(()(()()((((()))(())()())()))(())))(())))())()()(())(()))()((()(()(())()()))(()())))))(()))(()()))(())(((((()(()(()()((())()())))))((())())((())(()(())((()))(())(((()((((((((()()()(()))()()(((()))()((()()(())(())())()(()(())))(((((()(())(())(()))))())()))(()))()(()(((((((()((((())))())())())())()((((((((((((((()()((((((()()()())())()())())())(())(())))())((()())((()(()))))))()))))))))))))))))())((())((())()()))))))(((()((()(()()))((())(()()))()()())))(())))))))(()(((())))())()())))()()(())()))()(()))())((()()))))(()))))()))(()()(())))))))()(((()))))()(()))(())())))))()))((()))((()))())(())))))))))((((())()))()))()))())(())()()(())))())))(()())()))((()()(())))(())((((((()(())((()(((()(()()(())))()))))))()))()(()((()))()(()))(()(((())((((())())(())(()))))))))())))))))())())))))())))))()()(((())()(()))))))))())))))(())()()()))()))()))(()(())()()())())))))))())()(()(()))))()()()))))())(()))))()()))))()())))))(((())()()))(()))))))))))()()))))()()()))))(()())())()()())()(()))))()(()))(())))))))(((((())(())())()()))()()))(())))))()(()))))(())(()()))()())()))()))()))()))))())()()))())())))(()))(()))))))())()(((())()))))))))()))()())))())))())))()))))))))))()()))(()()))))))(())()(()))))())(()))))(()))))(()())))))())())()()))))())()))))))))(()))))()))))))()(()())))))))()))())))())))())))())))))))())(()()))))))(()())())))()())()))))))))))))))())))()(())))()))())()()(())(()()))(())))())()())(()(()(()))))())))))))))))())(()))()))()))))(())()())()())))))))))))()()))))))))))))())())))))(()())))))))))))())(())))()))))))))())())(()))()))(())))()))()()(())()))))))()((((())()))())())))))()))()))))((()())()))))())))(())))))))))))))))))()))))()()())()))()()))))())()))((()())))())))(()))(()())))))))()))()))))(())))))))(())))))())()()(()))())()))()()))))())()()))))())()))())))))))(()))))()())()))))))))(()))())))(()))()))))(())()))())())(())())())))))))((((())))))()))()))()())()(())))()))()))()())(()())()()(()())()))))())())))))(()))()))))())(()()(())))))(())()()((())())))))(())(())))))))())))))))))()(())))))))
+                         java Main ((((()(()(((((((()))(((()((((()())(())()(((()((((((()((()(()(((()(()((())))()((()()())))))))))()((((((())((()))(((((()(((((((((()()))((()(())()((())((()(()))((()))()))()(((((()(((()()))()())((()((((())()())()((((())()(()(()(((()(())(()(())(((((((())()()(((())(()(()(()(())))(()((((())((()))(((()(()()(((((()()(()(((()(((((())()))()((()(()))()((()((((())((((())(()(((())()()(()()()()()(())((((())((())(()()))()((((())))((((()())()((((())((()())((())(())(((((()((((()(((()((((())(()(((()()))()))((((((()((())()())))(((()(()))(()()(()(((()(()))((()()()())((()()()(((())())()())())())((()))(()(()))(((((()(()(())((()(())(())()((((()())()))((((())(())((())())((((()(((())(())((()()((((()((((((()(())()()(()(()()((((()))(())()())()))(())))(())))())()()(())(()))()((()(()(())()()))(()())))))(()))(()()))(())(((((()(()(()()((())()())))))((())())((())(()(())((()))(())(((()((((((((()()()(()))()()(((()))()((()()(())(())())()(()(())))(((((()(())(())(()))))())()))(()))()(()(((((((()((((())))())())())())()((((((((((((((()()((((((()()()())())()())())())(())(())))())((()())((()(()))))))()))))))))))))))))())((())((())()()))))))(((()((()(()()))((())(()()))()()())))(())))))))(()(((())))())()())))()()(())()))()(()))())((()()))))(()))))()))(()()(())))))))()(((()))))()(()))(())())))))()))((()))((()))())(())))))))))((((())()))()))()))())(())()()(())))())))(()())()))((()()(())))(())((((((()(())((()(((()(()()(())))()))))))()))()(()((()))()(()))(()(((())((((())())(())(()))))))))())))))))())())))))())))))()()(((())()(()))))))))())))))(())()()()))()))()))(()(())()()())())))))))())()(()(()))))()()()))))())(()))))()()))))()())))))(((())()()))(()))))))))))()()))))()()()))))(()())())()()())()(()))))()(()))(())))))))(((((())(())())()()))()()))(())))))()(()))))(())(()()))()())()))()))()))()))))())()()))())())))(()))(()))))))())()(((())()))))))))()))()())))())))())))()))))))))))()()))(()()))))))(())()(()))))())(()))))(()))))(()())))))())())()()))))())()))))))))(()))))()))))))()(()())))))))()))())))())))())))())))))))())(()()))))))(()())())))()())()))))))))))))))())))()(())))()))())()()(())(()()))(())))())()())(()(()(()))))())))))))))))())(()))()))()))))(())()())()())))))))))))()()))))))))))))())())))))(()())))))))))))())(())))()))))))))())())(()))()))(())))()))()()(())()))))))()((((())()))())())))))()))()))))((()())()))))())))(())))))))))))))))))()))))()()())()))()()))))())()))((()())))())))(()))(()())))))))()))()))))(())))))))(())))))())()()(()))())()))()()))))())()()))))())()))())))))))(()))))()())()))))))))(()))())))(()))()))))(())()))())())(())())())))))))((((())))))()))()))()())()(())))()))()))()())(()())()()(()())()))))())())))))(()))()))))())(()()(())))))(())()()((())())))))(())(())))))))())))))))))()(())))))))()()c Main.java 
+
+n133-p87:Day01 VonGriff$ java Main "((((()(()(((((((()))(((()((((()())(())()(((()((((((()((()(()(((()(()((())))()((()()())))))))))()((((((())((()))(((((()(((((((((()()))((()(())()((())((()(()))((()))()))()(((((()(((()()))()())((()((((())()())()((((())()(()(()(((()(())(()(())(((((((())()()(((())(()(()(()(())))(()((((())((()))(((()(()()(((((()()(()(((()(((((())()))()((()(()))()((()((((())((((())(()(((())()()(()()()()()(())((((())((())(()()))()((((())))((((()())()((((())((()())((())(())(((((()((((()(((()((((())(()(((()()))()))((((((()((())()())))(((()(()))(()()(()(((()(()))((()()()())((()()()(((())())()())())())((()))(()(()))(((((()(()(())((()(())(())()((((()())()))((((())(())((())())((((()(((())(())((()()((((()((((((()(())()()(()(()()((((()))(())()())()))(())))(())))())()()(())(()))()((()(()(())()()))(()())))))(()))(()()))(())(((((()(()(()()((())()())))))((())())((())(()(())((()))(())(((()((((((((()()()(()))()()(((()))()((()()(())(())())()(()(())))(((((()(())(())(()))))())()))(()))()(()(((((((()((((())))())())())())()((((((((((((((()()((((((()()()())())()())())())(())(())))())((()())((()(()))))))()))))))))))))))))())((())((())()()))))))(((()((()(()()))((())(()()))()()())))(())))))))(()(((())))())()())))()()(())()))()(()))())((()()))))(()))))()))(()()(())))))))()(((()))))()(()))(())())))))()))((()))((()))())(())))))))))((((())()))()))()))())(())()()(())))())))(()())()))((()()(())))(())((((((()(())((()(((()(()()(())))()))))))()))()(()((()))()(()))(()(((())((((())())(())(()))))))))())))))))())())))))())))))()()(((())()(()))))))))())))))(())()()()))()))()))(()(())()()())())))))))())()(()(()))))()()()))))())(()))))()()))))()())))))(((())()()))(()))))))))))()()))))()()()))))(()())())()()())()(()))))()(()))(())))))))(((((())(())())()()))()()))(())))))()(()))))(())(()()))()())()))()))()))()))))())()()))())())))(()))(()))))))())()(((())()))))))))()))()())))())))())))()))))))))))()()))(()()))))))(())()(()))))())(()))))(()))))(()())))))())())()()))))())()))))))))(()))))()))))))()(()())))))))()))())))())))())))())))))))())(()()))))))(()())())))()())()))))))))))))))())))()(())))()))())()()(())(()()))(())))())()())(()(()(()))))())))))))))))())(()))()))()))))(())()())()())))))))))))()()))))))))))))())())))))(()())))))))))))())(())))()))))))))())())(()))()))(())))()))()()(())()))))))()((((())()))())())))))()))()))))((()())()))))())))(())))))))))))))))))()))))()()())()))()()))))())()))((()())))())))(()))(()())))))))()))()))))(())))))))(())))))())()()(()))())()))()()))))())()()))))())()))())))))))(()))))()())()))))))))(()))())))(()))()))))(())()))())())(())())())))))))((((())))))()))()))()())()(())))()))()))()())(()())()()(()())()))))())())))))(()))()))))())(()()(())))))(())()()((())())))))(())(())))))))())))))))))()(())))))))()())())())()(()))))))))(()))))))))())()()))()(()))))))()))))))())))))))(())))()()(())()())))))(((())))()((())()))())))(()()))())(())())))()(((()())))))()(()()())))()()(()()(()()))())()(()()()))())()()))()())(()))))())))))())))(())()()))))(()))))(())(()))(())))))()()))()))))())()))()()(())())))((()))())()))))))()()))))((()(()))))()()))))))())))))())(()((()())))))))))))()())())))()))(()))))))(()))(())()())))(()))))))))())()()()()))))(()())))))))((())))()))(()))(())(())()())()))))))))(())))())))(()))()()))(()()))(()))())))()(())))())((()((()(())))((())))()))))((((())())()())))(())))()))))))())(()()((())))())()(()())))))(()())()))())))))))((())())))))))(()(()))())()()(()()(((()(((()())))))()))))))()(())(()()((()()(())()()))())()())()))()())())())))))))(((())))))))()()))))))(((())()))(()()))(()()))))(()(()()((((())()())((()()))))(()(())))))()((()()()())()()((()((()()))(()))(((()()()))(((())))()(((())()))))))((()(())())))(()())(((((()(()))(()((()))(()())()))))(()(()))()(()))(())(((())(()()))))()()))(((()))))(()()()()))())))((()()()(())()))()))))()()))()))))))((((((()()()))))())((()()(((()))))(()(())(()()())())())))()(((()()))(())((())))(()))(()()()())((())())())(()))))()))()((()(())()(()()(())(()))(())()))(())(()))))(())(())())(()()(()((()()((())))((()))()((())))(((()()()()((((()))(()()))()()()(((())((())())(()()(()()()))()((())(())()))())(((()()(())))()((()()())()())(()(())())(((())(())())((())(())()(((()()))(())))((())(()())())(())((()()()((((((())))((()(((((())()))()))(())(()()))()))(())()()))(())((()()())()()(()))())()((())))()((()()())((((()())((())())())((()((()))()))((())((()()(()((()()(((())(()()))))((()((())()(((())(()((())())((())(()((((((())())()(()())()(())(((())((((((()(())(()((()()()((()()(()()()())))()()(((((()()))()((((((()))()(()(()(()(((()())((()))())()((()))(())))()))()()))())()()))())((((())(()(()))(((((((())(((()(((((()(((()()((((())(((())())))(()()()(()(()))()))((((((()))((()(((()(())((()((((()((((((())(((((())))(((()(()))))(((()(((())()((())(()((()))(((()()(((())((((()(()(((((()))(((()(((((((()(()()()(()(()(()()())(())(((((()(())())()())(()(()(()))()(()()()())(()()(()((()))()((())())()(()))((())(()))()(()))()(((()(()(()((((((()()()()())()(((((()()(((()()()((()(((((()))((((((((()()()(((((()))))))(()()()(())(()))(()()))))(())()))(((((()(((((()()(()(()())(((()))((((()((()(()(()((()(()((())))()(((()((()))((()))(((((((((()((()((()(())))()((((()((()()))((())(((()(((((()()(()(()()((()(()()()(((((((())())()())))))((((()()(()))()))(()((())()(()(((((((((()()(((()(()())(()((()())((())())((((()(((()(((()((((()((()((((()(()((((((())((((((((((((()()(()()((((((((((((((()((()()))()((((((((((((())((((()(()())((()(()(()))()(((((()()(((()()))()())(())((()(((((()((())(((((()((()(((((()))()()((((())()((((())(((((((((()(())(()(())))())(()((())(((())(())(())())(()(()(())()()((()((())()(((()(((((()(())))()(((()((())))((()()()(((()(((()((()(()(())(()((()())(()(()(((()(((((((((())(()((((()()))(()((((()()()()(((()((((((((()(()()((((((()(()()(()((()((((((((((()()(((((((()())(())))(((()()))(((((()((()()())(()()((((())((()((((()))))(())((()(()()(((()(()(((()((((()(((((()))())())(()((())()))(((()())((())((())((((()((()((((((())(()((((()()))((((((())()(()))((()(((())((((((((((()()(((((()(((((()((()()()((((())))(()))()((()(())()()((()((((((((((()((())(())(((((()(()(()()))((((()((((()()((()(((()(((((((((()(()((()((()))((((((()(((())()()((()(((((((()())))()()(()((()((()()(((()(()()()()((((()((())((((()(((((((((()(((()()(((()(()(((()(((()((())()(()((()(()(()(()))()(((()))(()((((()((())((((())((((((())(()))(()((((())((()(()((((((((()()((((((()(()(()()()(())((()((()()(((()(((((((()()((()(((((((()))(((((()(((()(()()()(()(((()((()()((())(()(((((((((()(()((()((((((()()((())()))(((((()((())()())()(((((((((((()))((((()()()()())(()()(()(()()))()))(()))(()(((()()))())(()(()))()()((())(()())()())()(()))()))(()()(()((((((())((()(((((((((((()(())()((()(()((()((()(()((()((((((((((()()())((())()(())))((())()())()(((((()(()())((((()((()(())(()))(((())()((()))(((((())(()))()()(()))(((())((((()((((()(())))(((((((()))))())()())(())((())()(()()((()(()))()(()()(()()((()())((())((()()))((((()))()()))(()()(())()()(((((()(())((()((((()))()))(()())())(((()()(()()))(())))))(()))((())(((((()((((()))()((((()))()((())(((())))(((()())))((()(()()(("
+Hello World!
+0
+n133-p87:Day01 VonGriff$ java Main "((((()(()(((((((()))(((()((((()())(())()(((()((((((()((()(()(((()(()((())))()((()()())))))))))()((((((())((()))(((((()(((((((((()()))((()(())()((())((()(()))((()))()))()(((((()(((()()))()())((()((((())()())()((((())()(()(()(((()(())(()(())(((((((())()()(((())(()(()(()(())))(()((((())((()))(((()(()()(((((()()(()(((()(((((())()))()((()(()))()((()((((())((((())(()(((())()()(()()()()()(())((((())((())(()()))()((((())))((((()())()((((())((()())((())(())(((((()((((()(((()((((())(()(((()()))()))((((((()((())()())))(((()(()))(()()(()(((()(()))((()()()())((()()()(((())())()())())())((()))(()(()))(((((()(()(())((()(())(())()((((()())()))((((())(())((())())((((()(((())(())((()()((((()((((((()(())()()(()(()()((((()))(())()())()))(())))(())))())()()(())(()))()((()(()(())()()))(()())))))(()))(()()))(())(((((()(()(()()((())()())))))((())())((())(()(())((()))(())(((()((((((((()()()(()))()()(((()))()((()()(())(())())()(()(())))(((((()(())(())(()))))())()))(()))()(()(((((((()((((())))())())())())()((((((((((((((()()((((((()()()())())()())())())(())(())))())((()())((()(()))))))()))))))))))))))))())((())((())()()))))))(((()((()(()()))((())(()()))()()())))(())))))))(()(((())))())()())))()()(())()))()(()))())((()()))))(()))))()))(()()(())))))))()(((()))))()(()))(())())))))()))((()))((()))())(())))))))))((((())()))()))()))())(())()()(())))())))(()())()))((()()(())))(())((((((()(())((()(((()(()()(())))()))))))()))()(()((()))()(()))(()(((())((((())())(())(()))))))))())))))))())())))))())))))()()(((())()(()))))))))())))))(())()()()))()))()))(()(())()()())())))))))())()(()(()))))()()()))))())(()))))()()))))()())))))(((())()()))(()))))))))))()()))))()()()))))(()())())()()())()(()))))()(()))(())))))))(((((())(())())()()))()()))(())))))()(()))))(())(()()))()())()))()))()))()))))())()()))())())))(()))(()))))))())()(((())()))))))))()))()())))())))())))()))))))))))()()))(()()))))))(())()(()))))())(()))))(()))))(()())))))())())()()))))())()))))))))(()))))()))))))()(()())))))))()))())))())))())))())))))))())(()()))))))(()())())))()())()))))))))))))))())))()(())))()))())()()(())(()()))(())))())()())(()(()(()))))())))))))))))())(()))()))()))))(())()())()())))))))))))()()))))))))))))())())))))(()())))))))))))())(())))()))))))))())())(()))()))(())))()))()()(())()))))))()((((())()))())())))))()))()))))((()())()))))())))(())))))))))))))))))()))))()()())()))()()))))())()))((()())))())))(()))(()())))))))()))()))))(())))))))(())))))())()()(()))())()))()()))))())()()))))())()))())))))))(()))))()())()))))))))(()))())))(()))()))))(())()))())())(())())())))))))((((())))))()))()))()())()(())))()))()))()())(()())()()(()())()))))())())))))(()))()))))())(()()(())))))(())()()((())())))))(())(())))))))())))))))))()(())))))))()(c Main.java 
+                              Main "((((()(()(((((((()))(((()((((()())(())()(((()((((((()((()(()(((()(()((())))()((()()())))))))))()((((((())((()))(((((()(((((((((()()))((()(())()((())((()(()))((()))()))()(((((()(((()()))()())((()((((())()())()((((())()(()(()(((()(())(()(())(((((((())()()(((())(()(()(()(())))(()((((())((()))(((()(()()(((((()()(()(((()(((((())()))()((()(()))()((()((((())((((())(()(((())()()(()()()()()(())((((())((())(()()))()((((())))((((()())()((((())((()())((())(())(((((()((((()(((()((((())(()(((()()))()))((((((()((())()())))(((()(()))(()()(()(((()(()))((()()()())((()()()(((())())()())())())((()))(()(()))(((((()(()(())((()(())(())()((((()())()))((((())(())((())())((((()(((())(())((()()((((()((((((()(())()()(()(()()((((()))(())()())()))(())))(())))())()()(())(()))()((()(()(())()()))(()())))))(()))(()()))(())(((((()(()(()()((())()())))))((())())((())(()(())((()))(())(((()((((((((()()()(()))()()(((()))()((()()(())(())())()(()(())))(((((()(())(())(()))))())()))(()))()(()(((((((()((((())))())())())())()((((((((((((((()()((((((()()()())())()())())())(())(())))())((()())((()(()))))))()))))))))))))))))())((())((())()()))))))(((()((()(()()))((())(()()))()()())))(())))))))(()(((())))())()())))()()(())()))()(()))())((()()))))(()))))()))(()()(())))))))()(((()))))()(()))(())())))))()))((()))((()))())(())))))))))((((())()))()))()))())(())()()(())))())))(()())()))((()()(())))(())((((((()(())((()(((()(()()(())))()))))))()))()(()((()))()(()))(()(((())((((())())(())(()))))))))())))))))())())))))())))))()()(((())()(()))))))))())))))(())()()()))()))()))(()(())()()())())))))))())()(()(()))))()()()))))())(()))))()()))))()())))))(((())()()))(()))))))))))()()))))()()()))))(()())())()()())()(()))))()(()))(())))))))(((((())(())())()()))()()))(())))))()(()))))(())(()()))()())()))()))()))()))))())()()))())())))(()))(()))))))())()(((())()))))))))()))()())))())))())))()))))))))))()()))(()()))))))(())()(()))))())(()))))(()))))(()())))))())())()()))))())()))))))))(()))))()))))))()(()())))))))()))())))())))())))())))))))())(()()))))))(()())())))()())()))))))))))))))())))()(())))()))())()()(())(()()))(())))())()())(()(()(()))))())))))))))))())(()))()))()))))(())()())()())))))))))))()()))))))))))))())())))))(()())))))))))))())(())))()))))))))())())(()))()))(())))()))()()(())()))))))()((((())()))())())))))()))()))))((()())()))))())))(())))))))))))))))))()))))()()())()))()()))))())()))((()())))())))(()))(()())))))))()))()))))(())))))))(())))))())()()(()))())()))()()))))())()()))))())()))())))))))(()))))()())()))))))))(()))())))(()))()))))(())()))())())(())())())))))))((((())))))()))()))()())()(())))()))()))()())(()())()()(()())()))))())())))))(()))()))))())(()()(())))))(())()()((())())))))(())(())))))))())))))))))()(()))))))
+                         clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+n133-p87:Day01 VonGriff$ java Main "((((()(()(((((((()))(((()((((()())(())()(((()((((((()((()(()(((()(()((())))()((()()())))))))))()((((((())((()))(((((()(((((((((()()))((()(())()((())((()(()))((()))()))()(((((()(((()()))()())((()((((())()())()((((())()(()(()(((()(())(()(())(((((((())()()(((())(()(()(()(())))(()((((())((()))(((()(()()(((((()()(()(((()(((((())()))()((()(()))()((()((((())((((())(()(((())()()(()()()()()(())((((())((())(()()))()((((())))((((()())()((((())((()())((())(())(((((()((((()(((()((((())(()(((()()))()))((((((()((())()())))(((()(()))(()()(()(((()(()))((()()()())((()()()(((())())()())())())((()))(()(()))(((((()(()(())((()(())(())()((((()())()))((((())(())((())())((((()(((())(())((()()((((()((((((()(())()()(()(()()((((()))(())()())()))(())))(())))())()()(())(()))()((()(()(())()()))(()())))))(()))(()()))(())(((((()(()(()()((())()())))))((())())((())(()(())((()))(())(((()((((((((()()()(()))()()(((()))()((()()(())(())())()(()(())))(((((()(())(())(()))))())()))(()))()(()(((((((()((((())))())())())())()((((((((((((((()()((((((()()()())())()())())())(())(())))())((()())((()(()))))))()))))))))))))))))())((())((())()()))))))(((()((()(()()))((())(()()))()()())))(())))))))(()(((())))())()())))()()(())()))()(()))())((()()))))(()))))()))(()()(())))))))()(((()))))()(()))(())())))))()))((()))((()))())(())))))))))((((())()))()))()))())(())()()(())))())))(()())()))((()()(())))(())((((((()(())((()(((()(()()(())))()))))))()))()(()((()))()(()))(()(((())((((())())(())(()))))))))())))))))())())))))())))))()()(((())()(()))))))))())))))(())()()()))()))()))(()(())()()())())))))))())()(()(()))))()()()))))())(()))))()()))))()())))))(((())()()))(()))))))))))()()))))()()()))))(()())())()()())()(()))))()(()))(())))))))(((((())(())())()()))()()))(())))))()(()))))(())(()()))()())()))()))()))()))))())()()))())())))(()))(()))))))())()(((())()))))))))()))()())))())))())))()))))))))))()()))(()()))))))(())()(()))))())(()))))(()))))(()())))))())())()()))))())()))))))))(()))))()))))))()(()())))))))()))())))())))())))())))))))())(()()))))))(()())())))()())()))))))))))))))())))()(())))()))())()()(())(()()))(())))())()())(()(()(()))))())))))))))))())(()))()))()))))(())()())()())))))))))))()()))))))))))))())())))))(()())))))))))))())(())))()))))))))())())(()))()))(())))()))()()(())()))))))()((((())()))())())))))()))()))))((()())()))))())))(())))))))))))))))))()))))()()())()))()()))))())()))((()())))())))(()))(()())))))))()))()))))(())))))))(())))))())()()(()))())()))()()))))())()()))))())()))())))))))(()))))()())()))))))))(()))())))(()))()))))(())()))())())(())())())))))))((((())))))()))()))()())()(())))()))()))()())(()())()()(()())()))))())())))))(()))()))))())(()()(())))))(())()()((())())))))(())(())))))))())))))))))()(())))))))()(c Main.java 
+                              Main ((((()(()(((((((()))(((()((((()())(())()(((()((((((()((()(()(((()(()((())))()((()()())))))))))()((((((())((()))(((((()(((((((((()()))((()(())()((())((()(()))((()))()))()(((((()(((()()))()())((()((((())()())()((((())()(()(()(((()(())(()(())(((((((())()()(((())(()(()(()(())))(()((((())((()))(((()(()()(((((()()(()(((()(((((())()))()((()(()))()((()((((())((((())(()(((())()()(()()()()()(())((((())((())(()()))()((((())))((((()())()((((())((()())((())(())(((((()((((()(((()((((())(()(((()()))()))((((((()((())()())))(((()(()))(()()(()(((()(()))((()()()())((()()()(((())())()())())())((()))(()(()))(((((()(()(())((()(())(())()((((()())()))((((())(())((())())((((()(((())(())((()()((((()((((((()(())()()(()(()()((((()))(())()())()))(())))(())))())()()(())(()))()((()(()(())()()))(()())))))(()))(()()))(())(((((()(()(()()((())()())))))((())())((())(()(())((()))(())(((()((((((((()()()(()))()()(((()))()((()()(())(())())()(()(())))(((((()(())(())(()))))())()))(()))()(()(((((((()((((())))())())())())()((((((((((((((()()((((((()()()())())()())())())(())(())))())((()())((()(()))))))()))))))))))))))))())((())((())()()))))))(((()((()(()()))((())(()()))()()())))(())))))))(()(((())))())()())))()()(())()))()(()))())((()()))))(()))))()))(()()(())))))))()(((()))))()(()))(())())))))()))((()))((()))())(())))))))))((((())()))()))()))())(())()()(())))())))(()())()))((()()(())))(())((((((()(())((()(((()(()()(())))()))))))()))()(()((()))()(()))(()(((())((((())())(())(()))))))))())))))))())())))))())))))()()(((())()(()))))))))())))))(())()()()))()))()))(()(())()()())())))))))())()(()(()))))()()()))))())(()))))()()))))()())))))(((())()()))(()))))))))))()()))))()()()))))(()())())()()())()(()))))()(()))(())))))))(((((())(())())()()))()()))(())))))()(()))))(())(()()))()())()))()))()))()))))())()()))())())))(()))(()))))))())()(((())()))))))))()))()())))())))())))()))))))))))()()))(()()))))))(())()(()))))())(()))))(()))))(()())))))())())()()))))())()))))))))(()))))()))))))()(()())))))))()))())))())))())))())))))))())(()()))))))(()())())))()())()))))))))))))))())))()(())))()))())()()(())(()()))(())))())()())(()(()(()))))())))))))))))())(()))()))()))))(())()())()())))))))))))()()))))))))))))())())))))(()())))))))))))())(())))()))))))))())())(()))()))(())))()))()()(())()))))))()((((())()))())())))))()))()))))((()())()))))())))(())))))))))))))))))()))))()()())()))()()))))())()))((()())))())))(()))(()())))))))()))()))))(())))))))(())))))())()()(()))())()))()()))))())()()))))())()))())))))))(()))))()())()))))))))(()))())))(()))()))))(())()))())())(())())())))))))((((())))))()))()))()())()(())))()))()))()())(()())()()(()())()))))())())))))(()))()))))())(()()(())))))(())()()((())())))))(())(())))))))())))))))))()(())))))))()()c Main.java 
+
+n133-p87:Day01 VonGriff$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+n133-p87:Day01 VonGriff$ javac Main.java
+n133-p87:Day01 VonGriff$ java Main "((((()(()(((((((()))(((()((((()())(())()(((()((((((()((()(()(((()(()((())))()((()()())))))))))()((((((())((()))(((((()(((((((((()()))((()(())()((())((()(()))((()))()))()(((((()(((()()))()())((()((((())()())()((((())()(()(()(((()(())(()(())(((((((())()()(((())(()(()(()(())))(()((((())((()))(((()(()()(((((()()(()(((()(((((())()))()((()(()))()((()((((())((((())(()(((())()()(()()()()()(())((((())((())(()()))()((((())))((((()())()((((())((()())((())(())(((((()((((()(((()((((())(()(((()()))()))((((((()((())()())))(((()(()))(()()(()(((()(()))((()()()())((()()()(((())())()())())())((()))(()(()))(((((()(()(())((()(())(())()((((()())()))((((())(())((())())((((()(((())(())((()()((((()((((((()(())()()(()(()()((((()))(())()())()))(())))(())))())()()(())(()))()((()(()(())()()))(()())))))(()))(()()))(())(((((()(()(()()((())()())))))((())())((())(()(())((()))(())(((()((((((((()()()(()))()()(((()))()((()()(())(())())()(()(())))(((((()(())(())(()))))())()))(()))()(()(((((((()((((())))())())())())()((((((((((((((()()((((((()()()())())()())())())(())(())))())((()())((()(()))))))()))))))))))))))))())((())((())()()))))))(((()((()(()()))((())(()()))()()())))(())))))))(()(((())))())()())))()()(())()))()(()))())((()()))))(()))))()))(()()(())))))))()(((()))))()(()))(())())))))()))((()))((()))())(())))))))))((((())()))()))()))())(())()()(())))())))(()())()))((()()(())))(())((((((()(())((()(((()(()()(())))()))))))()))()(()((()))()(()))(()(((())((((())())(())(()))))))))())))))))())())))))())))))()()(((())()(()))))))))())))))(())()()()))()))()))(()(())()()())())))))))())()(()(()))))()()()))))())(()))))()()))))()())))))(((())()()))(()))))))))))()()))))()()()))))(()())())()()())()(()))))()(()))(())))))))(((((())(())())()()))()()))(())))))()(()))))(())(()()))()())()))()))()))()))))())()()))())())))(()))(()))))))())()(((())()))))))))()))()())))())))())))()))))))))))()()))(()()))))))(())()(()))))())(()))))(()))))(()())))))())())()()))))())()))))))))(()))))()))))))()(()())))))))()))())))())))())))())))))))())(()()))))))(()())())))()())()))))))))))))))())))()(())))()))())()()(())(()()))(())))())()())(()(()(()))))())))))))))))())(()))()))()))))(())()())()())))))))))))()()))))))))))))())())))))(()())))))))))))())(())))()))))))))())())(()))()))(())))()))()()(())()))))))()((((())()))())())))))()))()))))((()())()))))())))(())))))))))))))))))()))))()()())()))()()))))())()))((()())))())))(()))(()())))))))()))()))))(())))))))(())))))())()()(()))())()))()()))))())()()))))())()))())))))))(()))))()())()))))))))(()))())))(()))()))))(())()))())())(())())())))))))((((())))))()))()))()())()(())))()))()))()())(()())()()(()())()))))())())))))(()))()))))())(()()(())))))(())()()((())())))))(())(())))))))())))))))))()(())))))))()())())())()(()))))))))(()))))))))())()()))()(()))))))()))))))())))))))(())))()()(())()())))))(((())))()((())()))())))(()()))())(())())))()(((()())))))()(()()())))()()(()()(()()))())()(()()()))())()()))()())(()))))())))))())))(())()()))))(()))))(())(()))(())))))()()))()))))())()))()()(())())))((()))())()))))))()()))))((()(()))))()()))))))())))))())(()((()())))))))))))()())())))()))(()))))))(()))(())()())))(()))))))))())()()()()))))(()())))))))((())))()))(()))(())(())()())()))))))))(())))())))(()))()()))(()()))(()))())))()(())))())((()((()(())))((())))()))))((((())())()())))(())))()))))))())(()()((())))())()(()())))))(()())()))())))))))((())())))))))(()(()))())()()(()()(((()(((()())))))()))))))()(())(()()((()()(())()()))())()())()))()())())())))))))(((())))))))()()))))))(((())()))(()()))(()()))))(()(()()((((())()())((()()))))(()(())))))()((()()()())()()((()((()()))(()))(((()()()))(((())))()(((())()))))))((()(())())))(()())(((((()(()))(()((()))(()())()))))(()(()))()(()))(())(((())(()()))))()()))(((()))))(()()()()))())))((()()()(())()))()))))()()))()))))))((((((()()()))))())((()()(((()))))(()(())(()()())())())))()(((()()))(())((())))(()))(()()()())((())())())(()))))()))()((()(())()(()()(())(()))(())()))(())(()))))(())(())())(()()(()((()()((())))((()))()((())))(((()()()()((((()))(()()))()()()(((())((())())(()()(()()()))()((())(())()))())(((()()(())))()((()()())()())(()(())())(((())(())())((())(())()(((()()))(())))((())(()())())(())((()()()((((((())))((()(((((())()))()))(())(()()))()))(())()()))(())((()()())()()(()))())()((())))()((()()())((((()())((())())())((()((()))()))((())((()()(()((()()(((())(()()))))((()((())()(((())(()((())())((())(()((((((())())()(()())()(())(((())((((((()(())(()((()()()((()()(()()()())))()()(((((()()))()((((((()))()(()(()(()(((()())((()))())()((()))(())))()))()()))())()()))())((((())(()(()))(((((((())(((()(((((()(((()()((((())(((())())))(()()()(()(()))()))((((((()))((()(((()(())((()((((()((((((())(((((())))(((()(()))))(((()(((())()((())(()((()))(((()()(((())((((()(()(((((()))(((()(((((((()(()()()(()(()(()()())(())(((((()(())())()())(()(()(()))()(()()()())(()()(()((()))()((())())()(()))((())(()))()(()))()(((()(()(()((((((()()()()())()(((((()()(((()()()((()(((((()))((((((((()()()(((((()))))))(()()()(())(()))(()()))))(())()))(((((()(((((()()(()(()())(((()))((((()((()(()(()((()(()((())))()(((()((()))((()))(((((((((()((()((()(())))()((((()((()()))((())(((()(((((()()(()(()()((()(()()()(((((((())())()())))))((((()()(()))()))(()((())()(()(((((((((()()(((()(()())(()((()())((())())((((()(((()(((()((((()((()((((()(()((((((())((((((((((((()()(()()((((((((((((((()((()()))()((((((((((((())((((()(()())((()(()(()))()(((((()()(((()()))()())(())((()(((((()((())(((((()((()(((((()))()()((((())()((((())(((((((((()(())(()(())))())(()((())(((())(())(())())(()(()(())()()((()((())()(((()(((((()(())))()(((()((())))((()()()(((()(((()((()(()(())(()((()())(()(()(((()(((((((((())(()((((()()))(()((((()()()()(((()((((((((()(()()((((((()(()()(()((()((((((((((()()(((((((()())(())))(((()()))(((((()((()()())(()()((((())((()((((()))))(())((()(()()(((()(()(((()((((()(((((()))())())(()((())()))(((()())((())((())((((()((()((((((())(()((((()()))((((((())()(()))((()(((())((((((((((()()(((((()(((((()((()()()((((())))(()))()((()(())()()((()((((((((((()((())(())(((((()(()(()()))((((()((((()()((()(((()(((((((((()(()((()((()))((((((()(((())()()((()(((((((()())))()()(()((()((()()(((()(()()()()((((()((())((((()(((((((((()(((()()(((()(()(((()(((()((())()(()((()(()(()(()))()(((()))(()((((()((())((((())((((((())(()))(()((((())((()(()((((((((()()((((((()(()(()()()(())((()((()()(((()(((((((()()((()(((((((()))(((((()(((()(()()()(()(((()((()()((())(()(((((((((()(()((()((((((()()((())()))(((((()((())()())()(((((((((((()))((((()()()()())(()()(()(()()))()))(()))(()(((()()))())(()(()))()()((())(()())()())()(()))()))(()()(()((((((())((()(((((((((((()(())()((()(()((()((()(()((()((((((((((()()())((())()(())))((())()())()(((((()(()())((((()((()(())(()))(((())()((()))(((((())(()))()()(()))(((())((((()((((()(())))(((((((()))))())()())(())((())()(()()((()(()))()(()()(()()((()())((())((()()))((((()))()()))(()()(())()()(((((()(())((()((((()))()))(()())())(((()()(()()))(())))))(()))((())(((((()((((()))()((((()))()((())(((())))(((()())))((()(()()(("
+Hello World!
+0
+n133-p87:Day01 VonGriff$ java Main "((((()(()(((((((()))(((()((((()())(())()(((()((((((()((()(()(((()(()((())))()((()()())))))))))()((((((())((()))(((((()(((((((((()()))((()(())()((())((()(()))((()))()))()(((((()(((()()))()())((()((((())()())()((((())()(()(()(((()(())(()(())(((((((())()()(((())(()(()(()(())))(()((((())((()))(((()(()()(((((()()(()(((()(((((())()))()((()(()))()((()((((())((((())(()(((())()()(()()()()()(())((((())((())(()()))()((((())))((((()())()((((())((()())((())(())(((((()((((()(((()((((())(()(((()()))()))((((((()((())()())))(((()(()))(()()(()(((()(()))((()()()())((()()()(((())())()())())())((()))(()(()))(((((()(()(())((()(())(())()((((()())()))((((())(())((())())((((()(((())(())((()()((((()((((((()(())()()(()(()()((((()))(())()())()))(())))(())))())()()(())(()))()((()(()(())()()))(()())))))(()))(()()))(())(((((()(()(()()((())()())))))((())())((())(()(())((()))(())(((()((((((((()()()(()))()()(((()))()((()()(())(())())()(()(())))(((((()(())(())(()))))())()))(()))()(()(((((((()((((())))())())())())()((((((((((((((()()((((((()()()())())()())())())(())(())))())((()())((()(()))))))()))))))))))))))))())((())((())()()))))))(((()((()(()()))((())(()()))()()())))(())))))))(()(((())))())()())))()()(())()))()(()))())((()()))))(()))))()))(()()(())))))))()(((()))))()(()))(())())))))()))((()))((()))())(())))))))))((((())()))()))()))())(())()()(())))())))(()())()))((()()(())))(())((((((()(())((()(((()(()()(())))()))))))()))()(()((()))()(()))(()(((())((((())())(())(()))))))))())))))))())())))))())))))()()(((())()(()))))))))())))))(())()()()))()))()))(()(())()()())())))))))())()(()(()))))()()()))))())(()))))()()))))()())))))(((())()()))(()))))))))))()()))))()()()))))(()())())()()())()(()))))()(()))(())))))))(((((())(())())()()))()()))(())))))()(()))))(())(()()))()())()))()))()))()))))())()()))())())))(()))(()))))))())()(((())()))))))))()))()())))())))())))()))))))))))()()))(()()))))))(())()(()))))())(()))))(()))))(()())))))())())()()))))())()))))))))(()))))()))))))()(()())))))))()))())))())))())))())))))))())(()()))))))(()())())))()())()))))))))))))))())))()(())))()))())()()(())(()()))(())))())()())(()(()(()))))())))))))))))())(()))()))()))))(())()())()())))))))))))()()))))))))))))())())))))(()())))))))))))())(())))()))))))))())())(()))()))(())))()))()()(())()))))))()((((())()))())())))))()))()))))((()())()))))())))(())))))))))))))))))()))))()()())()))()()))))())()))((()())))())))(()))(()())))))))()))()))))(())))))))(())))))())()()(()))())()))()()))))())()()))))())()))())))))))(()))))()())()))))))))(()))())))(()))()))))(())()))())())(())())())))))))((((())))))()))()))()())()(())))()))()))()())(()())()()(()())()))))())())))))(()))()))))())(()()(())))))(())()()((())())))))(())(())))))))())))))))))()(())))))))()(c Main.java
+
+Main.java:11: cannot find symbol
+symbol  : method split(java.lang.String)
+location: class java.lang.String[]
+		String[] input = args.split("(|)");
+		                     ^
+1 error
+n133-p87:Day01 VonGriff$ javac Main.java
+Main.java:10: cannot find symbol
+symbol  : method getLength()
+location: class java.lang.String[]
+		System.out.println(args.getLength());
+		                       ^
+Main.java:15: cannot find symbol
+symbol  : variable input
+location: class Main
+		for (String paren: input) {
+		                   ^
+2 errors
+n133-p87:Day01 VonGriff$ javac Main.java
+Main.java:10: cannot find symbol
+symbol  : method getLength()
+location: class java.lang.String[]
+		System.out.println(args.getLength());
+		                       ^
+1 error
+n133-p87:Day01 VonGriff$ javac Main.java
+n133-p87:Day01 VonGriff$ java Main
+Hello World!
+0
+n133-p87:Day01 VonGriff$ javac Main.java
+n133-p87:Day01 VonGriff$ java Main
+Hello World!
+0
+n133-p87:Day01 VonGriff$ javac Main.java
+n133-p87:Day01 VonGriff$ java Main
+Hello World!
+0
+n133-p87:Day01 VonGriff$ javac Main.java
+Main.java:13: illegal escape character
+		String[] in = input.split("\(|\)");
+		                            ^
+Main.java:13: illegal escape character
+		String[] in = input.split("\(|\)");
+		                               ^
+2 errors
+n133-p87:Day01 VonGriff$ javac Main.java
+n133-p87:Day01 VonGriff$ java Main
+Hello World!
+0
+n133-p87:Day01 VonGriff$ javac Main.java
+n133-p87:Day01 VonGriff$ java Main
+Hello World!
+0
+n133-p87:Day01 VonGriff$ javac Main.java
+Main.java:14: cannot find symbol
+symbol  : variable length
+location: class java.lang.String
+		System.out.println("input length: " + input.length + "\n in length: " + in.getLength());
+		                                           ^
+Main.java:14: cannot find symbol
+symbol  : method getLength()
+location: class java.lang.String[]
+		System.out.println("input length: " + input.length + "\n in length: " + in.getLength());
+		                                                                          ^
+2 errors
+n133-p87:Day01 VonGriff$ javac Main.java
+Main.java:14: cannot find symbol
+symbol  : method getLength()
+location: class java.lang.String[]
+		System.out.println("input length: " + input.length() + "\n in length: " + in.getLength());
+		                                                                            ^
+1 error
+n133-p87:Day01 VonGriff$ javac Main.java
+Main.java:14: cannot find symbol
+symbol  : method length()
+location: class java.lang.String[]
+		System.out.println("input length: " + input.length() + "\n in length: " + in.length());
+		                                                                            ^
+1 error
+n133-p87:Day01 VonGriff$ javac Main.java
+Main.java:20: char cannot be dereferenced
+			if (paren.equals("("))
+			         ^
+Main.java:23: char cannot be dereferenced
+			else if (paren.equals(")"))
+			              ^
+2 errors
+n133-p87:Day01 VonGriff$ javac Main.java
+n133-p87:Day01 VonGriff$ java Main
+Hello World!
+input length: 7
+0
+n133-p87:Day01 VonGriff$ javac Main.java
+n133-p87:Day01 VonGriff$ java Main
+Hello World!
+input length: 7
+0
+n133-p87:Day01 VonGriff$ javac Main.java
+Main.java:20: cannot find symbol
+symbol  : method matches(java.lang.String)
+location: class java.lang.Character
+			if (paren.matches("\\("))
+			         ^
+Main.java:23: cannot find symbol
+symbol  : method matches(java.lang.String)
+location: class java.lang.Character
+			else if (paren.matches("\\)"))
+			              ^
+2 errors
+n133-p87:Day01 VonGriff$ javac Main.java
+Main.java:20: cannot find symbol
+symbol  : method matches(char)
+location: class java.lang.Character
+			if (paren.matches('('))
+			         ^
+Main.java:23: cannot find symbol
+symbol  : method matches(char)
+location: class java.lang.Character
+			else if (paren.matches(')'))
+			              ^
+2 errors
+n133-p87:Day01 VonGriff$ javac Main.java
+n133-p87:Day01 VonGriff$ java Main
+Hello World!
+input length: 7
+-3
+n133-p87:Day01 VonGriff$ javac Main.java
+n133-p87:Day01 VonGriff$ java Main
+Hello World!
+input length: 7000
+74
+n133-p87:Day01 VonGriff$ javac Basement.java 
+Basement.java:6: class Main is public, should be declared in a file named Main.java
+public class Main {
+       ^
+Basement.java:21: cannot find symbol
+symbol  : variable paren
+location: class Main
+			if (paren.equals('('))
+			    ^
+Basement.java:24: cannot find symbol
+symbol  : variable paren
+location: class Main
+			else if (paren.equals(')'))
+			         ^
+3 errors
+n133-p87:Day01 VonGriff$ javac Basement.java 
+Basement.java:21: cannot find symbol
+symbol  : variable paren
+location: class Basement
+			if (paren.equals('('))
+			    ^
+Basement.java:24: cannot find symbol
+symbol  : variable paren
+location: class Basement
+			else if (paren.equals(')'))
+			         ^
+2 errors
+n133-p87:Day01 VonGriff$ javac Basement.java 
+Basement.java:20: char cannot be dereferenced
+			if (in[index].equals('('))
+			             ^
+Basement.java:23: char cannot be dereferenced
+			else if (in[index].equals(')'))
+			                  ^
+2 errors
+n133-p87:Day01 VonGriff$ javac Basement.java 
+n133-p87:Day01 VonGriff$ java Basement
+Hello World!
+input length: 7000
+floor: -1
+ index is: 1795
+n133-p87:Day01 VonGriff$ cd ..
+n133-p87:AdventofCode VonGriff$ mkdir Day02
+n133-p87:AdventofCode VonGriff$ cd Day02
+n133-p87:Day02 VonGriff$ javac WrappingPaper.java 
+WrappingPaper.java:10: cannot find symbol
+symbol  : method FileReader(java.lang.String)
+location: class WrappingPaper
+		BufferedReader in = new BufferedReader(FileReader("input.txt"));
+		                                       ^
+1 error
+n133-p87:Day02 VonGriff$ javac WrappingPaper.java 
+WrappingPaper.java:11: cannot find symbol
+symbol  : method FileReader(java.lang.String)
+location: class WrappingPaper
+		BufferedReader in = new BufferedReader(FileReader("input.txt"));
+		                                       ^
+1 error
+n133-p87:Day02 VonGriff$ javac Present.java 
+n133-p87:Day02 VonGriff$ javac Present.java 
+Present.java:14: illegal start of type
+	if (l*h < small)
+	^
+Present.java:14: <identifier> expected
+	if (l*h < small)
+	     ^
+Present.java:14: ';' expected
+	if (l*h < small)
+	      ^
+Present.java:14: > expected
+	if (l*h < small)
+	               ^
+Present.java:15: '(' expected
+		small = l*h;
+		      ^
+Present.java:15: <identifier> expected
+		small = l*h;
+		         ^
+Present.java:15: <identifier> expected
+		small = l*h;
+		           ^
+Present.java:16: illegal start of type
+	if (w*h < small)
+	^
+Present.java:16: <identifier> expected
+	if (w*h < small)
+	     ^
+Present.java:16: ';' expected
+	if (w*h < small)
+	      ^
+Present.java:16: > expected
+	if (w*h < small)
+	               ^
+Present.java:17: '(' expected
+		small = w*h;
+		      ^
+Present.java:17: <identifier> expected
+		small = w*h;
+		         ^
+Present.java:17: <identifier> expected
+		small = w*h;
+		           ^
+Present.java:19: illegal start of type
+	return small;
+	^
+Present.java:19: ';' expected
+	return small;
+	      ^
+16 errors
+n133-p87:Day02 VonGriff$ javac Present.java 
+Present.java:19: illegal start of type
+	return small;
+	^
+Present.java:19: ';' expected
+	return small;
+	      ^
+2 errors
+n133-p87:Day02 VonGriff$ javac Present.java 
+n133-p87:Day02 VonGriff$ javac WrappingPaper.java 
+WrappingPaper.java:11: cannot find symbol
+symbol  : method FileReader(java.lang.String)
+location: class WrappingPaper
+		BufferedReader in = new BufferedReader(FileReader("input.txt"));
+		                                       ^
+1 error
+n133-p87:Day02 VonGriff$ javac WrappingPaper.java 
+WrappingPaper.java:12: cannot find symbol
+symbol  : method FileReader(java.lang.String)
+location: class WrappingPaper
+		BufferedReader in = new BufferedReader(FileReader("input.txt"));
+		                                       ^
+1 error
+n133-p87:Day02 VonGriff$ javac WrappingPaper.java 
+WrappingPaper.java:12: cannot find symbol
+symbol  : method FileReader(java.lang.String)
+location: class WrappingPaper
+		BufferedReader in = new BufferedReader(FileReader("input.txt"));
+		                                       ^
+1 error
+n133-p87:Day02 VonGriff$ javac WrappingPaper.java 
+WrappingPaper.java:12: unreported exception java.io.FileNotFoundException; must be caught or declared to be thrown
+		BufferedReader in = new BufferedReader(new FileReader("input.txt"));
+		                                       ^
+1 error
+n133-p87:Day02 VonGriff$ javac WrappingPaper.java 
+n133-p87:Day02 VonGriff$ javac WrappingPaper.java 
+WrappingPaper.java:16: ';' expected
+			lines++
+			       ^
+1 error
+n133-p87:Day02 VonGriff$ javac WrappingPaper.java 
+WrappingPaper.java:15: cannot find symbol
+symbol  : method nextLine()
+location: class java.io.BufferedReader
+		while (in.nextLine() != null)
+		         ^
+1 error
+n133-p87:Day02 VonGriff$ javac WrappingPaper.java 
+WrappingPaper.java:15: unreported exception java.io.IOException; must be caught or declared to be thrown
+		while (in.readLine() != null)
+		                  ^
+1 error
+n133-p87:Day02 VonGriff$ javac WrappingPaper.java 
+n133-p87:Day02 VonGriff$ java WrappingPaper
+1000
+n133-p87:Day02 VonGriff$ javac WrappingPaper.java 
+n133-p87:Day02 VonGriff$ javac WrappingPaper.java 
+WrappingPaper.java:17: incompatible types
+found   : boolean
+required: java.lang.String
+		while (line = in.readLine() != null)
+		                            ^
+WrappingPaper.java:17: incompatible types
+found   : java.lang.String
+required: boolean
+		while (line = in.readLine() != null)
+		            ^
+2 errors
+n133-p87:Day02 VonGriff$ javac WrappingPaper.java 
+n133-p87:Day02 VonGriff$ javac WrappingPaper.java 
+WrappingPaper.java:25: ']' expected
+		int[3] dim;
+		    ^
+WrappingPaper.java:25: not a statement
+		int[3] dim;
+		   ^
+WrappingPaper.java:25: illegal start of expression
+		int[3] dim;
+		     ^
+WrappingPaper.java:27: ']' expected
+		while (char[index + 1] != null)
+		            ^
+WrappingPaper.java:27: ')' expected
+		while (char[index + 1] != null)
+		                     ^
+WrappingPaper.java:27: not a statement
+		while (char[index + 1] != null)
+		                       ^
+WrappingPaper.java:27: ';' expected
+		while (char[index + 1] != null)
+		                              ^
+WrappingPaper.java:28: ']' expected
+			if (!char[index].equals("x"))
+			          ^
+WrappingPaper.java:28: ')' expected
+			if (!char[index].equals("x"))
+			               ^
+WrappingPaper.java:28: illegal start of expression
+			if (!char[index].equals("x"))
+			                ^
+WrappingPaper.java:28: ';' expected
+			if (!char[index].equals("x"))
+			                 ^
+WrappingPaper.java:28: not a statement
+			if (!char[index].equals("x"))
+			                       ^
+WrappingPaper.java:28: ';' expected
+			if (!char[index].equals("x"))
+			                            ^
+WrappingPaper.java:29: ']' expected
+				numToParse.add(char[index]);
+				                    ^
+WrappingPaper.java:29: ')' expected
+				numToParse.add(char[index]);
+				                         ^
+WrappingPaper.java:29: ';' expected
+				numToParse.add(char[index]);
+				                          ^
+16 errors
+n133-p87:Day02 VonGriff$ javac WrappingPaper.java 
+WrappingPaper.java:25: ']' expected
+		int[3] dim;
+		    ^
+WrappingPaper.java:25: not a statement
+		int[3] dim;
+		   ^
+WrappingPaper.java:25: illegal start of expression
+		int[3] dim;
+		     ^
+WrappingPaper.java:28: ']' expected
+		Character c = char[index];
+		                   ^
+WrappingPaper.java:28: ';' expected
+		Character c = char[index];
+		                        ^
+WrappingPaper.java:31: ']' expected
+				numToParse.add(char[index]);
+				                    ^
+WrappingPaper.java:31: ')' expected
+				numToParse.add(char[index]);
+				                         ^
+WrappingPaper.java:31: ';' expected
+				numToParse.add(char[index]);
+				                          ^
+8 errors
+n133-p87:Day02 VonGriff$ javac WrappingPaper.java 
+WrappingPaper.java:25: ';' expected
+		int[] dim = nwq int[3];
+		               ^
+WrappingPaper.java:25: ']' expected
+		int[] dim = nwq int[3];
+		                    ^
+WrappingPaper.java:25: not a statement
+		int[] dim = nwq int[3];
+		                   ^
+WrappingPaper.java:25: illegal start of expression
+		int[] dim = nwq int[3];
+		                     ^
+WrappingPaper.java:28: ']' expected
+		Character c = char[index];
+		                   ^
+WrappingPaper.java:28: ';' expected
+		Character c = char[index];
+		                        ^
+WrappingPaper.java:31: ']' expected
+				numToParse.add(char[index]);
+				                    ^
+WrappingPaper.java:31: ')' expected
+				numToParse.add(char[index]);
+				                         ^
+WrappingPaper.java:31: ';' expected
+				numToParse.add(char[index]);
+				                          ^
+9 errors
+n133-p87:Day02 VonGriff$ javac WrappingPaper.java 
+WrappingPaper.java:28: ']' expected
+		Character c = char[index];
+		                   ^
+WrappingPaper.java:28: ';' expected
+		Character c = char[index];
+		                        ^
+WrappingPaper.java:31: ']' expected
+				numToParse.add(char[index]);
+				                    ^
+WrappingPaper.java:31: ')' expected
+				numToParse.add(char[index]);
+				                         ^
+WrappingPaper.java:31: ';' expected
+				numToParse.add(char[index]);
+				                          ^
+5 errors
+n133-p87:Day02 VonGriff$ javac WrappingPaper.java 
+WrappingPaper.java:28: ']' expected
+		Character c = char[index];
+		                   ^
+WrappingPaper.java:28: ';' expected
+		Character c = char[index];
+		                        ^
+2 errors
+n133-p87:Day02 VonGriff$ javac WrappingPaper.java 
+WrappingPaper.java:18: non-static method addPresent(java.lang.String) cannot be referenced from a static context
+			addPresent(line);
+			^
+WrappingPaper.java:32: cannot find symbol
+symbol  : method add(java.lang.Character)
+location: class java.util.ArrayList<java.lang.String>
+				numToParse.add(c);
+				          ^
+WrappingPaper.java:34: incompatible types
+found   : java.lang.String
+required: java.lang.Character
+				for (Character n:numToParse)
+				                 ^
+WrappingPaper.java:36: cannot find symbol
+symbol  : method parseToInt(java.lang.StringBuilder)
+location: class java.lang.Integer
+				dim[index] = Integer.parseToInt(build);
+				                    ^
+WrappingPaper.java:38: cannot find symbol
+symbol  : variable length
+location: class java.lang.StringBuilder
+				build.delete(0, build.length - 1);
+				                     ^
+5 errors
+n133-p87:Day02 VonGriff$ javac WrappingPaper.java 
+WrappingPaper.java:18: non-static method addPresent(java.lang.String) cannot be referenced from a static context
+			addPresent(line);
+			^
+WrappingPaper.java:32: cannot find symbol
+symbol  : method add(java.lang.Character)
+location: class java.util.ArrayList<java.lang.String>
+				numToParse.add(c);
+				          ^
+WrappingPaper.java:34: incompatible types
+found   : java.lang.String
+required: java.lang.Character
+				for (Character n:numToParse)
+				                 ^
+WrappingPaper.java:36: cannot find symbol
+symbol  : method parseInt(java.lang.StringBuilder)
+location: class java.lang.Integer
+				dim[index] = Integer.parseInt(build);
+				                    ^
+WrappingPaper.java:38: cannot find symbol
+symbol  : variable length
+location: class java.lang.StringBuilder
+				build.delete(0, build.length - 1);
+				                     ^
+5 errors
+n133-p87:Day02 VonGriff$ javac WrappingPaper.java 
+WrappingPaper.java:18: non-static method addPresent(java.lang.String) cannot be referenced from a static context
+			addPresent(line);
+			^
+WrappingPaper.java:32: cannot find symbol
+symbol  : method add(java.lang.Character)
+location: class java.util.ArrayList<java.lang.String>
+				numToParse.add(c);
+				          ^
+WrappingPaper.java:34: incompatible types
+found   : java.lang.String
+required: java.lang.Character
+				for (Character n:numToParse)
+				                 ^
+WrappingPaper.java:36: cannot find symbol
+symbol  : method parseInt(java.lang.StringBuilder)
+location: class java.lang.Integer
+				dim[index] = Integer.parseInt(build);
+				                    ^
+4 errors
+n133-p87:Day02 VonGriff$ javac WrappingPaper.java 
+WrappingPaper.java:18: non-static method addPresent(java.lang.String) cannot be referenced from a static context
+			addPresent(line);
+			^
+WrappingPaper.java:32: cannot find symbol
+symbol  : method add(java.lang.Character)
+location: class java.util.ArrayList<java.lang.String>
+				numToParse.add(c);
+				          ^
+WrappingPaper.java:34: incompatible types
+found   : java.lang.String
+required: java.lang.Character
+				for (Character n:numToParse)
+				                 ^
+WrappingPaper.java:36: cannot find symbol
+symbol  : method parseInt(java.lang.StringBuilder)
+location: class java.lang.Integer
+				dim[index] = Integer.parseInt(build);
+				                    ^
+4 errors
+n133-p87:Day02 VonGriff$ javac WrappingPaper.java 
+WrappingPaper.java:18: non-static method addPresent(java.lang.String) cannot be referenced from a static context
+			addPresent(line);
+			^
+WrappingPaper.java:32: cannot find symbol
+symbol  : method add(java.lang.Character)
+location: class java.util.ArrayList<java.lang.String>
+				numToParse.add(c);
+				          ^
+WrappingPaper.java:34: incompatible types
+found   : java.lang.String
+required: java.lang.Character
+				for (Character n:numToParse)
+				                 ^
+WrappingPaper.java:36: cannot find symbol
+symbol  : variable toString
+location: class java.lang.StringBuilder
+				dim[index] = Integer.parseInt(build.toString);
+				                                   ^
+4 errors
+n133-p87:Day02 VonGriff$ cd
+n133-p87:~ VonGriff$ cd Kurser/
+n133-p87:Kurser VonGriff$ ls
+#Faltstudie#	DD1361		Other		Year01
+AG1814		DD1390		SF1604
+DD1350		IS1500		SF1625
+n133-p87:Kurser VonGriff$ ls SF1625/
+Adams - Calculus A Complete Course 8th Edition c2014 solutions ISM.pdf
+SF1625-TEN1-2015-01-12.pdf
+SF1625PLANFRFRELSNINGAR.pdf
+n133-p87:Kurser VonGriff$ cd SF1604/
+n133-p87:SF1604 VonGriff$ ls
+SF1604-TEN1-2015-03-13.pdf
+n133-p87:SF1604 VonGriff$ cd ..
+n133-p87:Kurser VonGriff$ ls Year01/
+DD1339	DH1600	DH1620	SF1547
+n133-p87:Kurser VonGriff$ ls Year01/SF1547/
+Exempel		Övningar	fsin.m		lab2.pdf
+Lab0.pdf	bokNumAlg.pdf	fsinty.m	lab3
+Lab1		ex46.m		lab1.8-4.m	plan.pdf
+Lab2		exsamling.pdf	lab1.pdf	uppgift21.d
+n133-p87:Kurser VonGriff$ ls SF1625/
+Adams - Calculus A Complete Course 8th Edition c2014 solutions ISM.pdf
+SF1625-TEN1-2015-01-12.pdf
+SF1625PLANFRFRELSNINGAR.pdf
+n133-p87:Kurser VonGriff$ ls SF1604/
+SF1604-TEN1-2015-03-13.pdf
+n133-p87:Kurser VonGriff$ cd IS1500/Projekt/Git/Dtek-projekt/
+n133-p87:Dtek-projekt VonGriff$ ls
+Anteckningar	mipslab.h	mipslabwork.c	time4io.c
+COPYING		mipslabdata.c	mipslabwork.c.o	time4io.c.o
+Makefile	mipslabdata.c.o	mipslabwork.c~	vectors.S
+README.md	mipslabfunc.c	outfile.elf	vectors.S.o
+labwork.S	mipslabfunc.c.o	outfile.hex
+labwork.S.o	mipslabmain.c	stubs.c
+labwork.S~	mipslabmain.c.o	stubs.c.o
+n133-p87:Dtek-projekt VonGriff$ make
+
+ **************************************************************
+ * Make sure you have sourced the cross compiling environment *
+ * Do this by issuing:                                        *
+ * . /path/to/crosscompiler/environment                       *
+ **************************************************************
+
+make: *** [envcheck] Error 1
+n133-p87:Dtek-projekt VonGriff$ ls
+Anteckningar	mipslab.h	mipslabwork.c	time4io.c
+COPYING		mipslabdata.c	mipslabwork.c.o	time4io.c.o
+Makefile	mipslabdata.c.o	mipslabwork.c~	vectors.S
+README.md	mipslabfunc.c	outfile.elf	vectors.S.o
+labwork.S	mipslabfunc.c.o	outfile.hex
+labwork.S.o	mipslabmain.c	stubs.c
+labwork.S~	mipslabmain.c.o	stubs.c.o
+n133-p87:Dtek-projekt VonGriff$ gcc mipslabwork.c
+mipslabwork.c:14:10: fatal error: 'pic32mx.h' file not found
+#include <pic32mx.h>  /* Declarations of system-specific addresses etc */
+         ^
+1 error generated.
+n133-p87:Dtek-projekt VonGriff$ gcc -o mipslabwork.c
+clang: error: no input files
+n133-p87:Dtek-projekt VonGriff$ gcc -o mipslabwork mipslabwork.c
+mipslabwork.c:14:10: fatal error: 'pic32mx.h' file not found
+#include <pic32mx.h>  /* Declarations of system-specific addresses etc */
+         ^
+1 error generated.
+n133-p87:Dtek-projekt VonGriff$ gcc -o mipslabwork mipslabwork.c
+mipslabwork.c:14:10: fatal error: 'pic32mx.h' file not found
+#include <pic32mx.h>  /* Declarations of system-specific addresses etc */
+         ^
+1 error generated.
+n133-p87:Dtek-projekt VonGriff$ 

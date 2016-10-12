@@ -1,0 +1,4 @@
+[1,{"c":"red","b":2},3]				Ska ge fyra
+[1,2,3] 							Ska ge sex
+{"d":"red","e":[1,2,3,4],"f":5}		Ska ge noll
+[1,"red",5]							Ska ge sex
